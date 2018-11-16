@@ -58,7 +58,7 @@
 
 ## API Reference Documentation ##
 
-## GET /orders?page=:page&limit=:limit: listing orders ##
+## GET `/orders?page=:page&limit=:limit` listing orders ##
 
 Response :
      [
@@ -74,21 +74,21 @@ Response :
          },
      ]
 
-## POST /orders: Create a new order ##
+## POST `/orders` Create a new order ##
 
 Request:
- {
+ `{
      "origin" :["28.704060", "77.102493"],
      "destination" :["28.535517", "77.391029"]
- }
+ }`
 Response:
- {
+ `{
      "id": "5bee80b9bde99e30fbaa7b6b",
      "distance": 9160,
      "status": "UNASSIGNED"
- }
+ }`
 
-## PATCH /orders/:id: Update order status using its order id ##
+## PATCH `/orders/:id` Update order status using its order id ##
 
 Request:
  {
