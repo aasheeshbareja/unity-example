@@ -38,7 +38,7 @@
 ## App Structure
 
 **./**
--	bin/www contains entry point for application that starts the server
+-	`bin/www` contains entry point for application that starts the server
 -	`config` contains configuration for development & production environment and pm2 configuration for running the app.
 -	`controllers` contains functions which will be called for handling routes.
 -	`helper` contains classes used across the application
@@ -60,7 +60,7 @@
 
 ### GET `/orders?page=:page&limit=:limit` listing orders ###
 
-Response :
+Response:
      ```
      [
          {
@@ -76,7 +76,7 @@ Response :
      ]
      ```
 
-# POST `/orders` Create a new order #
+### POST `/orders` Create a new order ###
 
 Request:
  ```
@@ -95,7 +95,7 @@ Response:
  }
  ```
 
-# PATCH `/orders/:id` Update order status using its order id #
+### PATCH `/orders/:id` Update order status using its order id ###
 
 Request:
  ```
@@ -112,7 +112,7 @@ Response:
 
 ## Google API configuration ##
 
-- add google distance Api key in configuration file located in config/production.json
+- Add google distance Api key in configuration file located in config/production.json
 
 
 ## Swagger API documentation ##
