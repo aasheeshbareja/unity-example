@@ -58,7 +58,7 @@
 
 ## API Reference Documentation ##
 
-# GET `/orders?page=:page&limit=:limit` listing orders #
+### GET `/orders?page=:page&limit=:limit` listing orders ###
 
 Response :
      ```
@@ -72,7 +72,7 @@ Response :
                  "id" : "5bee80b9bde99e30fbaa7b69",
                  "distance" : "200",
                  "status" : "UNASSIGNED",
-         },
+         }
      ]
      ```
 
